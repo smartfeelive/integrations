@@ -12,6 +12,7 @@ const smartFeeApiKey = 'XXXXXXXXXX'
  * Fireblocks Config
  * TODO: Enter your fireblocks info below.
  */
+const FireblocksSDK = require("fireblocks-sdk").FireblocksSDK;
 const privateKey = fs.readFileSync(path.resolve(__dirname, "./api-client-key.pem"), "utf8");
 const apiKey = "XXXXXXXX-XXXX-XXXX-XXXX-XXXXXXXXXXXX";
 const fireblocks = new FireblocksSDK(privateKey, apiKey);
