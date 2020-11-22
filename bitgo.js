@@ -1,4 +1,4 @@
-const bitgo = require('bitgo')
+const BitGoJS = require('bitgo')
 const request = require('request-promise')
 
 /**
